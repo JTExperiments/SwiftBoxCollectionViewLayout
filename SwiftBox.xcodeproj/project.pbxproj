@@ -239,6 +239,7 @@
 					};
 					889865B21AAFD89B009C19D1 = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 78BJD4M4CR;
 					};
 				};
 			};
@@ -484,6 +485,7 @@
 		889865C61AAFD89B009C19D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -508,6 +510,7 @@
 		889865C71AAFD89B009C19D1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEFINES_MODULE = YES;

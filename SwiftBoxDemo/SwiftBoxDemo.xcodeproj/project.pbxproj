@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A84DEC21B521A2200250FFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A84DEC11B521A2200250FFF /* AppDelegate.swift */; };
+		1A84DEC41B521A2200250FFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A84DEC31B521A2200250FFF /* ViewController.swift */; };
+		1A84DEC71B521A2200250FFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A84DEC51B521A2200250FFF /* Main.storyboard */; };
+		1A84DEC91B521A2200250FFF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A84DEC81B521A2200250FFF /* Images.xcassets */; };
+		1A84DECC1B521A2200250FFF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A84DECA1B521A2200250FFF /* LaunchScreen.xib */; };
+		1A84DED81B521A2200250FFF /* SwiftBoxiOSDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A84DED71B521A2200250FFF /* SwiftBoxiOSDemoTests.swift */; };
+		1A84DEE21B521A8D00250FFF /* SwiftBoxCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A84DEE11B521A8D00250FFF /* SwiftBoxCollectionViewLayout.swift */; };
+		1A84DEE71B52237700250FFF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A84DEE61B52237700250FFF /* Constants.swift */; };
+		1A84DEE91B5223A100250FFF /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A84DEE81B5223A100250FFF /* CollectionViewCell.swift */; };
+		1A84DEEB1B52261F00250FFF /* Layout+CollectionVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A84DEEA1B52261F00250FFF /* Layout+CollectionVIew.swift */; };
+		1A84DEEC1B5226EE00250FFF /* Layout+CollectionVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A84DEEA1B52261F00250FFF /* Layout+CollectionVIew.swift */; };
+		1A9299941B4E5ADE00AFB05C /* SizableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9299931B4E5ADE00AFB05C /* SizableView.swift */; };
+		1AA80BE61B53771200268DDA /* SwiftBox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9299981B4E5ADF00AFB05C /* SwiftBox.framework */; };
+		1AA80BE71B53771200268DDA /* SwiftBox.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9299981B4E5ADF00AFB05C /* SwiftBox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1ADF3E141B536B12004563F5 /* TextNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADF3E131B536B12004563F5 /* TextNode.swift */; };
+		1ADF3E151B536C52004563F5 /* TextNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADF3E131B536B12004563F5 /* TextNode.swift */; };
 		8896A94A1A7F1B10004301E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8896A9491A7F1B10004301E8 /* AppDelegate.swift */; };
 		8896A94C1A7F1B10004301E8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8896A94B1A7F1B10004301E8 /* Images.xcassets */; };
 		8896A94F1A7F1B10004301E8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8896A94D1A7F1B10004301E8 /* MainMenu.xib */; };
@@ -16,6 +32,34 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		1A84DED21B521A2200250FFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8896A93C1A7F1B10004301E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A84DEBC1B521A2200250FFF;
+			remoteInfo = SwiftBoxiOSDemo;
+		};
+		1A84DEE31B521B0400250FFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8896A9641A7F1B1E004301E8 /* SwiftBox.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 889865B21AAFD89B009C19D1;
+			remoteInfo = "SwiftBox-iOS";
+		};
+		1A9299971B4E5ADF00AFB05C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8896A9641A7F1B1E004301E8 /* SwiftBox.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 889865B31AAFD89B009C19D1;
+			remoteInfo = "SwiftBox-iOS";
+		};
+		1AA80BE81B53771200268DDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8896A9641A7F1B1E004301E8 /* SwiftBox.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 889865B21AAFD89B009C19D1;
+			remoteInfo = "SwiftBox-iOS";
+		};
 		8896A9551A7F1B10004301E8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8896A93C1A7F1B10004301E8 /* Project object */;
@@ -47,6 +91,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		1AA80BEA1B53771200268DDA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1AA80BE71B53771200268DDA /* SwiftBox.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8896A9731A7F1B3D004301E8 /* Copy Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -61,6 +116,23 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1A84DEBD1B521A2200250FFF /* SwiftBoxiOSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftBoxiOSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A84DEC01B521A2200250FFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A84DEC11B521A2200250FFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A84DEC31B521A2200250FFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1A84DEC61B521A2200250FFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A84DEC81B521A2200250FFF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1A84DECB1B521A2200250FFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1A84DED11B521A2200250FFF /* SwiftBoxiOSDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftBoxiOSDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A84DED61B521A2200250FFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A84DED71B521A2200250FFF /* SwiftBoxiOSDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBoxiOSDemoTests.swift; sourceTree = "<group>"; };
+		1A84DEE11B521A8D00250FFF /* SwiftBoxCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftBoxCollectionViewLayout.swift; sourceTree = "<group>"; };
+		1A84DEE61B52237700250FFF /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1A84DEE81B5223A100250FFF /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		1A84DEEA1B52261F00250FFF /* Layout+CollectionVIew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Layout+CollectionVIew.swift"; sourceTree = "<group>"; };
+		1A9299931B4E5ADE00AFB05C /* SizableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SizableView.swift; sourceTree = "<group>"; };
+		1ADF3E121B52E7DE004563F5 /* SwiftBox.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftBox.playground; sourceTree = "<group>"; };
+		1ADF3E131B536B12004563F5 /* TextNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextNode.swift; sourceTree = "<group>"; };
 		8896A9441A7F1B10004301E8 /* SwiftBoxDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftBoxDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8896A9481A7F1B10004301E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8896A9491A7F1B10004301E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +145,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1A84DEBA1B521A2200250FFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AA80BE61B53771200268DDA /* SwiftBox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A84DECE1B521A2200250FFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8896A9411A7F1B10004301E8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -91,11 +178,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A84DEBE1B521A2200250FFF /* SwiftBoxiOSDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1ADF3E121B52E7DE004563F5 /* SwiftBox.playground */,
+				1A84DEE61B52237700250FFF /* Constants.swift */,
+				1A84DEC11B521A2200250FFF /* AppDelegate.swift */,
+				1A84DEC31B521A2200250FFF /* ViewController.swift */,
+				1A84DEC51B521A2200250FFF /* Main.storyboard */,
+				1A84DEEA1B52261F00250FFF /* Layout+CollectionVIew.swift */,
+				1A84DEE81B5223A100250FFF /* CollectionViewCell.swift */,
+				1A84DEE11B521A8D00250FFF /* SwiftBoxCollectionViewLayout.swift */,
+				1A84DEC81B521A2200250FFF /* Images.xcassets */,
+				1A84DECA1B521A2200250FFF /* LaunchScreen.xib */,
+				1A84DEBF1B521A2200250FFF /* Supporting Files */,
+				1ADF3E131B536B12004563F5 /* TextNode.swift */,
+			);
+			path = SwiftBoxiOSDemo;
+			sourceTree = "<group>";
+		};
+		1A84DEBF1B521A2200250FFF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A84DEC01B521A2200250FFF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A84DED41B521A2200250FFF /* SwiftBoxiOSDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A84DED71B521A2200250FFF /* SwiftBoxiOSDemoTests.swift */,
+				1A84DED51B521A2200250FFF /* Supporting Files */,
+			);
+			path = SwiftBoxiOSDemoTests;
+			sourceTree = "<group>";
+		};
+		1A84DED51B521A2200250FFF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A84DED61B521A2200250FFF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		8896A93B1A7F1B10004301E8 = {
 			isa = PBXGroup;
 			children = (
 				8896A9461A7F1B10004301E8 /* SwiftBoxDemo */,
 				8896A9571A7F1B10004301E8 /* SwiftBoxDemoTests */,
+				1A84DEBE1B521A2200250FFF /* SwiftBoxiOSDemo */,
+				1A84DED41B521A2200250FFF /* SwiftBoxiOSDemoTests */,
 				8896A9451A7F1B10004301E8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,6 +238,8 @@
 			children = (
 				8896A9441A7F1B10004301E8 /* SwiftBoxDemo.app */,
 				8896A9541A7F1B10004301E8 /* SwiftBoxDemoTests.xctest */,
+				1A84DEBD1B521A2200250FFF /* SwiftBoxiOSDemo.app */,
+				1A84DED11B521A2200250FFF /* SwiftBoxiOSDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,6 +248,7 @@
 			isa = PBXGroup;
 			children = (
 				8896A9491A7F1B10004301E8 /* AppDelegate.swift */,
+				1A9299931B4E5ADE00AFB05C /* SizableView.swift */,
 				8896A94B1A7F1B10004301E8 /* Images.xcassets */,
 				8896A94D1A7F1B10004301E8 /* MainMenu.xib */,
 				8896A9471A7F1B10004301E8 /* Supporting Files */,
@@ -151,6 +287,7 @@
 			children = (
 				8896A96A1A7F1B1F004301E8 /* SwiftBox.framework */,
 				8896A96C1A7F1B1F004301E8 /* SwiftBoxTests.xctest */,
+				1A9299981B4E5ADF00AFB05C /* SwiftBox.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -158,6 +295,44 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		1A84DEBC1B521A2200250FFF /* SwiftBoxiOSDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A84DEDF1B521A2200250FFF /* Build configuration list for PBXNativeTarget "SwiftBoxiOSDemo" */;
+			buildPhases = (
+				1A84DEB91B521A2200250FFF /* Sources */,
+				1A84DEBA1B521A2200250FFF /* Frameworks */,
+				1A84DEBB1B521A2200250FFF /* Resources */,
+				1AA80BEA1B53771200268DDA /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A84DEE41B521B0400250FFF /* PBXTargetDependency */,
+				1AA80BE91B53771200268DDA /* PBXTargetDependency */,
+			);
+			name = SwiftBoxiOSDemo;
+			productName = SwiftBoxiOSDemo;
+			productReference = 1A84DEBD1B521A2200250FFF /* SwiftBoxiOSDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A84DED01B521A2200250FFF /* SwiftBoxiOSDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A84DEE01B521A2200250FFF /* Build configuration list for PBXNativeTarget "SwiftBoxiOSDemoTests" */;
+			buildPhases = (
+				1A84DECD1B521A2200250FFF /* Sources */,
+				1A84DECE1B521A2200250FFF /* Frameworks */,
+				1A84DECF1B521A2200250FFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A84DED31B521A2200250FFF /* PBXTargetDependency */,
+			);
+			name = SwiftBoxiOSDemoTests;
+			productName = SwiftBoxiOSDemoTests;
+			productReference = 1A84DED11B521A2200250FFF /* SwiftBoxiOSDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		8896A9431A7F1B10004301E8 /* SwiftBoxDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8896A95E1A7F1B10004301E8 /* Build configuration list for PBXNativeTarget "SwiftBoxDemo" */;
@@ -204,6 +379,14 @@
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = "Josh Abernathy";
 				TargetAttributes = {
+					1A84DEBC1B521A2200250FFF = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 78BJD4M4CR;
+					};
+					1A84DED01B521A2200250FFF = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 1A84DEBC1B521A2200250FFF;
+					};
 					8896A9431A7F1B10004301E8 = {
 						CreatedOnToolsVersion = 6.2;
 					};
@@ -234,11 +417,20 @@
 			targets = (
 				8896A9431A7F1B10004301E8 /* SwiftBoxDemo */,
 				8896A9531A7F1B10004301E8 /* SwiftBoxDemoTests */,
+				1A84DEBC1B521A2200250FFF /* SwiftBoxiOSDemo */,
+				1A84DED01B521A2200250FFF /* SwiftBoxiOSDemoTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		1A9299981B4E5ADF00AFB05C /* SwiftBox.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftBox.framework;
+			remoteRef = 1A9299971B4E5ADF00AFB05C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		8896A96A1A7F1B1F004301E8 /* SwiftBox.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
@@ -256,6 +448,23 @@
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1A84DEBB1B521A2200250FFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A84DEC71B521A2200250FFF /* Main.storyboard in Resources */,
+				1A84DECC1B521A2200250FFF /* LaunchScreen.xib in Resources */,
+				1A84DEC91B521A2200250FFF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A84DECF1B521A2200250FFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8896A9421A7F1B10004301E8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -275,11 +484,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1A84DEB91B521A2200250FFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ADF3E141B536B12004563F5 /* TextNode.swift in Sources */,
+				1A84DEEB1B52261F00250FFF /* Layout+CollectionVIew.swift in Sources */,
+				1A84DEE91B5223A100250FFF /* CollectionViewCell.swift in Sources */,
+				1A84DEE21B521A8D00250FFF /* SwiftBoxCollectionViewLayout.swift in Sources */,
+				1A84DEC41B521A2200250FFF /* ViewController.swift in Sources */,
+				1A84DEC21B521A2200250FFF /* AppDelegate.swift in Sources */,
+				1A84DEE71B52237700250FFF /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A84DECD1B521A2200250FFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ADF3E151B536C52004563F5 /* TextNode.swift in Sources */,
+				1A84DEEC1B5226EE00250FFF /* Layout+CollectionVIew.swift in Sources */,
+				1A84DED81B521A2200250FFF /* SwiftBoxiOSDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8896A9401A7F1B10004301E8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8896A94A1A7F1B10004301E8 /* AppDelegate.swift in Sources */,
+				1A9299941B4E5ADE00AFB05C /* SizableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +528,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		1A84DED31B521A2200250FFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A84DEBC1B521A2200250FFF /* SwiftBoxiOSDemo */;
+			targetProxy = 1A84DED21B521A2200250FFF /* PBXContainerItemProxy */;
+		};
+		1A84DEE41B521B0400250FFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftBox-iOS";
+			targetProxy = 1A84DEE31B521B0400250FFF /* PBXContainerItemProxy */;
+		};
+		1AA80BE91B53771200268DDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftBox-iOS";
+			targetProxy = 1AA80BE81B53771200268DDA /* PBXContainerItemProxy */;
+		};
 		8896A9561A7F1B10004301E8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 8896A9431A7F1B10004301E8 /* SwiftBoxDemo */;
@@ -307,6 +556,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		1A84DEC51B521A2200250FFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A84DEC61B521A2200250FFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1A84DECA1B521A2200250FFF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A84DECB1B521A2200250FFF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
 		8896A94D1A7F1B10004301E8 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -318,6 +583,86 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		1A84DED91B521A2200250FFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftBoxiOSDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1A84DEDA1B521A2200250FFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = SwiftBoxiOSDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A84DEDB1B521A2200250FFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftBoxiOSDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftBoxiOSDemo.app/SwiftBoxiOSDemo";
+			};
+			name = Debug;
+		};
+		1A84DEDC1B521A2200250FFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = SwiftBoxiOSDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftBoxiOSDemo.app/SwiftBoxiOSDemo";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		8896A95C1A7F1B10004301E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -456,6 +801,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1A84DEDF1B521A2200250FFF /* Build configuration list for PBXNativeTarget "SwiftBoxiOSDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A84DED91B521A2200250FFF /* Debug */,
+				1A84DEDA1B521A2200250FFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A84DEE01B521A2200250FFF /* Build configuration list for PBXNativeTarget "SwiftBoxiOSDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A84DEDB1B521A2200250FFF /* Debug */,
+				1A84DEDC1B521A2200250FFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8896A93F1A7F1B10004301E8 /* Build configuration list for PBXProject "SwiftBoxDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
